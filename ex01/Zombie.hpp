@@ -6,7 +6,7 @@
 /*   By: apaula-l <apaula-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/28 20:03:36 by apaula-l          #+#    #+#             */
-/*   Updated: 2025/06/28 20:22:28 by apaula-l         ###   ########.fr       */
+/*   Updated: 2025/06/28 20:59:25 by apaula-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define ZOMBIE_HPP
 # include <iostream>
 # include <string>
+# include <cstdlib.h>
 
 class Zombie
 {
