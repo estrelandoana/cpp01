@@ -12,10 +12,10 @@
 
 NAME = zombie
 
-SRC = main.cpp
-	Zombie.cpp
-	newZombie.cpp
-	randomZombie.cpp
+SRC = main.cpp \
+	Zombie.cpp \
+	newZombie.cpp \
+	randomChump.cpp
 
 OBJS = $(SRC:.cpp=.o)
 
