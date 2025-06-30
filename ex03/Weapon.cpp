@@ -16,6 +16,11 @@ Weapon::Weapon(std::string type) : _type(type)
 {
 }
 
+Weapon::~Weapon(void)
+{
+	std::cout << getType() << " dropped to the floor and broke." << std::endl;
+}
+
 const std::string& Weapon::getType() const
 {
     return _type;
